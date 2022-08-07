@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.devnet]
+solana_mvp = "6RBESNk1JAjNSS8pJEn4hAdmn94kbeESfEMvMJ2nhjKq"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/duytrieu/.config/solana/id.json"
+
+[scripts]
+test = "node tests/solana-mvp.js"
